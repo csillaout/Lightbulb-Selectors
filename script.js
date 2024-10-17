@@ -8,6 +8,4 @@ lightbulb.forEach((lightbulb) => {
     lightbulb.classList.toggle("active");
     output.innerHTML = `You've clicked the lights ${count} times`;
   });
-  // if .active is on => take it off
-  // if .active is not on => put it on
 });
